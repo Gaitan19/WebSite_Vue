@@ -1,0 +1,697 @@
+.segment {
+  margin-bottom: 100px;
+
+  @include media-breakpoint-down(md) {
+    margin-bottom: 50px;
+  }
+
+  &__wrapper {
+    @include media-breakpoint-down(xxl) {
+      padding-inline: 34px;
+    }
+  }
+
+  &__title {
+    @extend %sectionTitle;
+  }
+
+  &__subtitle {
+    @extend %subtitle;
+    margin-bottom: 50px;
+  }
+
+  &__description {
+    @extend %description;
+  }
+
+  &.services {
+    @include media-breakpoint-down(sm) {
+      margin-bottom: 100px;
+    }
+
+    .segment__content {
+      @include media-breakpoint-down(xl) {}
+
+      @include media-breakpoint-down(lg) {
+        margin-bottom: 46px;
+        text-align: center;
+      }
+
+      @include media-breakpoint-down(md) {
+        margin-bottom: 50px;
+      }
+    }
+
+    .segment__title {
+      @include media-breakpoint-down(xxl) {
+        font-size: 44px;
+        margin-bottom: 40px;
+      }
+
+      @include media-breakpoint-down(xl) {
+        font-size: 30px;
+      }
+
+      @include media-breakpoint-down(md) {
+        font-size: 40px;
+        margin-bottom: 25px;
+      }
+    }
+
+    .segment__subtitle {
+      max-width: 850px;
+
+      @include media-breakpoint-down(xxl) {
+        font-size: 25px;
+        margin-bottom: 40px;
+      }
+
+      @include media-breakpoint-down(xl) {
+        font-size: 33px;
+        line-height: 1.2;
+        margin-bottom: 30px;
+      }
+
+      @include media-breakpoint-down(lg) {
+        text-align: center;
+      }
+
+      @include media-breakpoint-down(sm) {
+        font-size: 25px;
+        line-height: 32px;
+        margin-bottom: 25px;
+      }
+    }
+
+    .segment__description {
+      @include media-breakpoint-down(xxl) {
+        font-size: 18px;
+      }
+
+      @include media-breakpoint-down(xl) {
+        font-size: 20px;
+        line-height: 30px;
+      }
+    }
+
+    .segment__info {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 50px;
+
+      @include media-breakpoint-down(xl) {
+        margin-bottom: 116px;
+      }
+
+      @include media-breakpoint-down(lg) {
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 100px;
+      }
+
+      @include media-breakpoint-down(md) {
+        margin-bottom: 30px;
+      }
+    }
+  }
+
+  &.ourModel {
+    @include media-breakpoint-down(sm) {
+      margin-bottom: 100px;
+    }
+
+    .segment {
+      &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        gap: 24px;
+
+        @include media-breakpoint-down(xl) {
+          align-items: center;
+          justify-content: space-between;
+        }
+
+        @include media-breakpoint-down(lg) {
+          align-items: center;
+          flex-direction: column;
+          gap: 14px;
+        }
+
+        @include media-breakpoint-down(md) {
+          gap: 24px;
+        }
+      }
+
+      &__info {
+        max-width: 640px;
+        width: 100%;
+
+        @include media-breakpoint-down(xl) {
+          max-width: 500px;
+        }
+
+        @include media-breakpoint-down(lg) {
+          max-width: 100%;
+          text-align: center;
+        }
+      }
+
+      &__title {
+        @include media-breakpoint-down(xxl) {
+          font-size: 44px;
+          line-height: 1.3;
+          margin-bottom: 40px;
+        }
+
+        @include media-breakpoint-down(xl) {
+          font-size: 30px;
+          line-height: 1.3;
+          margin-bottom: 40px;
+        }
+
+        @include media-breakpoint-down(lg) {
+          text-align: center;
+          text-wrap: wrap;
+        }
+
+        @include media-breakpoint-down(md) {
+          font-size: 30px;
+        }
+
+        @include media-breakpoint-down(sm) {
+          font-size: 40px;
+          margin-bottom: 50px;
+        }
+      }
+
+      &__subtitle {
+        @include media-breakpoint-down(xxl) {
+          font-size: 25px;
+          line-height: 30px;
+          margin-bottom: 30px;
+          max-width: 512px;
+        }
+
+        @include media-breakpoint-down(xl) {
+          font-size: 30px;
+          line-height: 36px;
+          margin-bottom: 50px;
+          max-width: 500px;
+        }
+
+        @include media-breakpoint-down(lg) {
+          text-align: center;
+          max-width: 100%;
+        }
+
+        @include media-breakpoint-down(sm) {
+          font-size: 25px;
+          line-height: 32px;
+          margin-bottom: 40px;
+          text-align: left;
+        }
+      }
+
+      &__description {
+        font-weight: 400;
+        margin-bottom: 40px;
+
+        @include media-breakpoint-down(xxl) {
+          font-size: 18px;
+          margin-bottom: 30px;
+        }
+
+        @include media-breakpoint-down(xl) {
+          font-size: 16px;
+          line-height: 1.3;
+          margin-bottom: 50px;
+          max-width: 100%;
+
+          &:last-of-type {
+            margin-bottom: 0;
+          }
+        }
+
+        @include media-breakpoint-down(lg) {
+          text-align: center;
+
+          &:last-of-type {
+            margin-bottom: 50px;
+          }
+        }
+
+        @include media-breakpoint-down(md) {
+          font-size: 16px;
+          line-height: 28px;
+        }
+
+        @include media-breakpoint-down(sm) {
+          font-size: 20px;
+          line-height: 30px;
+          margin-bottom: 40px;
+          text-align: left;
+
+          &:last-of-type {
+            margin-bottom: 0;
+          }
+        }
+      }
+
+      &__info {
+        padding-top: 40px;
+
+        @include media-breakpoint-down(lg) {
+          max-width: 100%;
+        }
+      }
+    }
+  }
+
+  &.technologies {
+    @include media-breakpoint-down(lg) {
+      margin-bottom: 100px;
+    }
+
+    @include media-breakpoint-down(md) {
+      margin-bottom: 50px;
+    }
+
+    @include media-breakpoint-down(sm) {
+      margin-bottom: 100px;
+    }
+
+    .segment__subtitle {
+      color: $blue;
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 42px;
+      margin: 0 auto;
+      max-width: 1290px;
+      text-align: center;
+
+      @include media-breakpoint-down(xxl) {
+        font-size: 23px;
+        line-height: 36px;
+      }
+
+      @include media-breakpoint-down(xl) {
+        font-size: 20px;
+        line-height: 1.5;
+      }
+
+      @include media-breakpoint-down(lg) {
+        font-size: 28px;
+        margin-bottom: 70px;
+      }
+
+      @include media-breakpoint-down(md) {
+        font-size: 22px;
+      }
+
+      @include media-breakpoint-down(sm) {
+        font-size: 20px;
+        margin-bottom: 0;
+        text-align: left;
+      }
+    }
+  }
+
+  &.remoteTeams {
+    @include media-breakpoint-down(md) {
+      margin-bottom: 50px;
+    }
+
+    @include media-breakpoint-down(sm) {
+      margin-bottom: 100px;
+    }
+
+    .segment {
+      &__title {
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 45px;
+      }
+
+      &__description {
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 33.6px;
+        margin-bottom: 50px;
+      }
+
+      @include media-breakpoint-down(xxl) {
+        &__title {
+          font-size: 35px;
+          margin-bottom: 45px;
+        }
+
+        &__description {
+          font-size: 25px;
+          margin-bottom: 40px;
+        }
+      }
+
+      @include media-breakpoint-down(xl) {
+        &__title {
+          font-size: 30px;
+          margin-bottom: 40px;
+        }
+
+        &__description {
+          font-size: 30px;
+          margin-bottom: 50px;
+          max-width: 650px;
+        }
+      }
+
+      @include media-breakpoint-down(lg) {
+        &__title {
+          font-size: 30px;
+          line-height: 1.2;
+        }
+
+        &__description {
+          font-size: 30px;
+        }
+      }
+
+      @include media-breakpoint-down(sm) {
+        &__description {
+          font-size: 24px;
+          text-wrap: pretty;
+        }
+      }
+    }
+  }
+
+  &.industry {
+    @include media-breakpoint-down(md) {
+      margin-bottom: 100px;
+    }
+
+    .segment {
+      &__title {
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 1;
+      }
+
+      &__description {
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 33.6px;
+        margin-bottom: 50px;
+      }
+
+      @include media-breakpoint-down(xxl) {
+        &__title {
+          font-size: 35px;
+          margin-bottom: 45px;
+        }
+
+        &__description {
+          font-size: 25px;
+          margin-bottom: 45px;
+        }
+      }
+
+      @include media-breakpoint-down(xl) {
+        &__title {
+          font-size: 30px;
+          margin-bottom: 40px;
+        }
+
+        &__description {
+          font-size: 30px;
+          margin-bottom: 50px;
+        }
+      }
+
+      @include media-breakpoint-down(lg) {
+        &__title {
+          font-size: 30px;
+          text-align: center;
+        }
+
+        &__description {
+          line-height: 1.3;
+          text-align: center;
+        }
+      }
+
+      @include media-breakpoint-down(sm) {
+        &__description {
+          font-size: 24px;
+          line-height: 1.3;
+        }
+      }
+    }
+  }
+
+  &.newsletter {
+    background: linear-gradient(88.57deg, $black 0%, $blue 100%);
+    padding: 50px 0;
+
+    .segment {
+      &__wrapper {
+        display: flex;
+        gap: 24px;
+
+        @include media-breakpoint-down(lg) {
+          gap: 7.5px;
+        }
+
+        @include media-breakpoint-down(md) {
+          flex-direction: column;
+          gap: 30px;
+          margin: 0 auto;
+          max-width: 600px;
+        }
+      }
+
+      &__info {
+        max-width: 636px;
+        width: 100%;
+
+        @include media-breakpoint-down(md) {
+          max-width: 100%;
+          text-align: center;
+        }
+      }
+
+      &__subtitle {
+        color: $white;
+        font-size: 30px;
+        line-height: 45px;
+        margin-bottom: 0;
+
+        @include media-breakpoint-down(lg) {
+          line-height: 40px;
+        }
+
+        @include media-breakpoint-down(md) {
+          font-size: 24px;
+          line-height: 1.4;
+        }
+      }
+    }
+  }
+
+  &.recruitment {
+    .segment {
+      &__title {
+        font-size: 30px;
+        line-height: 45px;
+        margin-bottom: 30px;
+        text-align: center;
+
+        @include media-breakpoint-down(lg) {
+          line-height: 1.3;
+          margin-bottom: 50px;
+        }
+
+        @include media-breakpoint-down(sm) {
+          font-size: 40px;
+          line-height: 50px;
+          margin-bottom: 50px;
+        }
+      }
+
+      &__subtitle {
+        color: $blue;
+        font-size: 30px;
+        line-height: 36px;
+        text-align: center;
+
+        @include media-breakpoint-down(lg) {
+          font-size: 30px;
+          line-height: 1.3;
+          margin-bottom: 40px;
+          text-wrap: pretty;
+        }
+
+        @include media-breakpoint-down(sm) {
+          font-size: 30px;
+          line-height: 36px;
+        }
+      }
+    }
+
+    @include media-breakpoint-down(lg) {
+      margin-bottom: 100px;
+    }
+  }
+
+  &.openingList {
+    .segment {
+      &__title {
+        font-size: 30px;
+        line-height: 45px;
+        margin-bottom: 30px;
+        text-align: center;
+
+        @include media-breakpoint-down(lg) {
+          line-height: 1.3;
+          margin-bottom: 50px;
+        }
+
+        @include media-breakpoint-down(sm) {
+          font-size: 30px;
+          line-height: 45px;
+          margin-bottom: 50px;
+        }
+      }
+
+      &__subtitle {
+        color: $blue;
+        font-size: 30px;
+        line-height: 36px;
+        text-align: center;
+
+        @include media-breakpoint-down(lg) {
+          line-height: 1.3;
+          margin-bottom: 50px;
+          text-wrap: pretty;
+        }
+
+        @include media-breakpoint-down(sm) {
+          font-size: 25px;
+          line-height: 32px;
+          margin-bottom: 40px;
+        }
+      }
+    }
+
+    @include media-breakpoint-down(sm) {
+      margin-bottom: 100px;
+    }
+  }
+
+  &.career__about {
+    color: $blue;
+
+    .segment {
+      &__title {
+        color: $blue;
+        text-transform: none;
+
+        @include media-breakpoint-down(xl) {
+          margin-bottom: 40px;
+        }
+
+        @include media-breakpoint-down(sm) {
+          font-size: 25px;
+          line-height: 32px;
+          margin-bottom: 25px;
+          text-align: left;
+        }
+      }
+    }
+  }
+
+  &.career__journey {
+    .segment {
+      &__info {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      &__title {
+        font-size: 30px;
+        margin-bottom: 40px;
+      }
+
+      &__subtitle {
+        color: $blue;
+        font-size: 30px;
+        margin-bottom: 40px;
+      }
+
+      @include media-breakpoint-down(xxl) {
+        &__info {
+          column-gap: 80px;
+        }
+      }
+
+      @include media-breakpoint-down(xl) {
+        &__info {
+          column-gap: 40px;
+        }
+
+        &__title {
+          font-size: 26px;
+          margin-bottom: 30px;
+        }
+
+        &__subtitle {
+          font-size: 26px;
+          margin-bottom: 30px;
+        }
+      }
+
+      @include media-breakpoint-down(lg) {
+        &__info {
+          flex-direction: column;
+          row-gap: 40px;
+        }
+      }
+
+      @include media-breakpoint-down(sm) {
+        &__title {
+          font-size: 40px;
+          line-height: 50px;
+          margin-bottom: 50px;
+          text-align: center;
+        }
+
+        &__subtitle {
+          font-size: 25px;
+          line-height: 32px;
+          margin-bottom: 40px;
+          text-align: left;
+        }
+
+        &__info {
+          gap: 0;
+        }
+      }
+    }
+
+    @include media-breakpoint-down(sm) {
+      margin-bottom: 100px;
+    }
+  }
+
+  &.careers__services {
+    @include media-breakpoint-down(lg) {
+      margin-bottom: 100px;
+    }
+  }
+
+  &.careers {
+    @include media-breakpoint-down(lg) {
+      margin-bottom: 0;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "src": "/images/identty.png",
+        "alt": "identty logo"
+    },
+    {
+        "id": 2,
+        "src": "/images/baum.png",
+        "alt": "baum logo"
+    },
+    {
+        "id": 3,
+        "src": "/images/applaudo.png",
+        "alt": "applaudo logo"
+    },
+    {
+        "id": 4,
+        "src": "/images/bloom.png",
+        "alt": "bloom growth logo"
+    },
+    {
+        "id": 5,
+        "src": "/images/walmart.png",
+        "alt": "walmart logo"
+    }
+]

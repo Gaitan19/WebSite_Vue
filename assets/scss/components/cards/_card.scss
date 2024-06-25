@@ -1,0 +1,192 @@
+.card {
+	&__wrapper {
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		row-gap: 36px;
+	}
+
+	&__image {
+		display: block;
+		height: 78px;
+		margin-bottom: 24px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 78px;
+	}
+
+	&__title {
+		color: $blue;
+		font-family: $font-primary;
+		font-size: 30px;
+		font-weight: 700;
+		margin: 0;
+		text-align: center;
+	}
+
+	&__description {
+		color: $black;
+		font-family: $font-primary;
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+	&.services {
+		max-width: 636px;
+		width: 100%;
+
+		.card__body {
+			height: 180px;
+		}
+
+		@include media-breakpoint-down(xxl) {
+			.card__body {
+				height: 180px;
+			}
+
+			.card__title {
+				font-size: 28px;
+			}
+
+			.card__description {
+				font-size: 18px;
+			}
+
+			.card__wrapper {
+				row-gap: 26px;
+			}
+		}
+
+		@include media-breakpoint-down(xl) {
+			.card {
+				&__body {
+					height: 150px;
+					margin-bottom: 10px;
+				}
+
+				&__wrapper {
+					row-gap: 40px;
+				}
+
+				&__title {
+					font-size: 30px;
+				}
+
+				&__description {
+					font-size: 16px;
+					line-height: 25px;
+				}
+			}
+		}
+
+		@include media-breakpoint-down(lg) {
+			.card {
+				&__body {
+					height: auto;
+				}
+
+				&__wrapper {
+					row-gap: 36px;
+				}
+
+				&__image {
+					height: 90px;
+					width: 90px;
+				}
+
+				&__description {
+					text-align: center;
+				}
+			}
+		}
+
+		@include media-breakpoint-down(md) {
+			.card {
+				&__description {
+					font-size: 16px;
+					line-height: 28px;
+				}
+			}
+		}
+
+		@include media-breakpoint-down(sm) {
+			.card {
+				&__heading {
+					width: 100%;
+				}
+
+				&__description {
+					font-size: 20px;
+					text-align: left;
+				}
+			}
+		}
+	}
+
+	&.careers-service {
+		max-width: 306px;
+
+		.card {
+			&__wrapper {
+				gap: 20px;
+			}
+
+			&__heading {
+				height: 194px;
+
+				img {
+					height: 120px;
+					width: 120px;
+				}
+
+				@include media-breakpoint-down(xl) {
+					height: auto;
+				}
+			}
+
+			&__title {
+				font-size: 16px;
+				line-height: 24px;
+			}
+
+			&__description {
+				font-size: 16px;
+				font-weight: 500;
+				line-height: 24px;
+				text-align: center;
+			}
+
+			&__footer {
+				display: none;
+			}
+
+			@include media-breakpoint-down(xxl) {
+				&__description {
+					font-size: 14.1px;
+				}
+			}
+
+			@include media-breakpoint-down(lg) {
+				&__description {
+					font-size: 16px;
+				}
+			}
+
+			@include media-breakpoint-down(sm) {
+				&__wrapper {
+					gap: 36px;
+				}
+
+				&__title {
+					font-size: 30px;
+					line-height: 35px;
+				}
+
+				&__description {
+					font-size: 20px;
+					line-height: 30px;
+				}
+			}
+		}
+	}
+}

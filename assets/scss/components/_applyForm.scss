@@ -1,0 +1,136 @@
+.apply {
+  &__form {
+    width: 100%;
+
+    &--error {
+      bottom: -22px;
+      color: $red;
+      font-size: 13px;
+      left: 10px;
+      position: absolute;
+    }
+
+    &--group {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 30px;
+      position: relative;
+
+      &.phone {
+        height: 39px;
+        width: 100%;
+      }
+
+      .phone {
+        &-group {
+          align-items: center;
+          border-bottom: 1px solid $gray-light;
+          display: flex;
+          height: 100%;
+        }
+        &-code {
+          font-weight: 700;
+        }
+      }
+    }
+
+    &--input {
+      all: unset;
+      border-bottom: 1px solid $gray-light;
+      color: $black;
+      display: block;
+      font-size: 18px;
+      font-weight: 600;
+      padding: 6px 16px;
+
+      &::placeholder {
+        color: $gray-light;
+      }
+
+      &::selection {
+        background-color: $orange;
+        color: $white;
+      }
+
+      &.phone {
+        border: none;
+      }
+    }
+
+    &--english {
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid $gray-light;
+      color: $gray-light;
+      font-family: $font-primary;
+      font-size: 18px;
+      font-weight: 600;
+      padding: 6px 16px;
+      -webkit-padding-end: 20px;
+      position: relative;
+      width: 100%;
+
+      .select-first {
+        display: none;
+      }
+
+      &:has(option[value='']:not(:checked)) {
+        color: $black;
+      }
+
+      &:focus-visible {
+        outline: none;
+      }
+
+      &-item {
+        padding: 10px 0;
+      }
+    }
+
+    &--block {
+      align-items: flex-start;
+      column-gap: 30px;
+      display: flex;
+      width: 100%;
+    }
+
+    &--button {
+      width: 100%;
+    }
+
+    &--submit {
+      all: unset;
+      background: $orange;
+      color: $white;
+      display: block;
+      font-size: 16px;
+      font-weight: 700;
+      margin: 0 auto;
+      padding: 14px 54px;
+      text-align: center;
+    }
+
+    @include media-breakpoint-down(xl) {
+      &--block {
+        gap: 20px;
+      }
+    }
+
+    @include media-breakpoint-down(sm) {
+      &--block {
+        flex-direction: column;
+      }
+
+      &--submit {
+        align-items: center;
+        display: flex;
+        font-size: 20px;
+        height: 54px;
+        justify-content: center;
+        line-height: 30px;
+        padding: 0;
+        width: 217px;
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+.multiselect {
+	all: unset;
+
+	&.skills {
+		border: none;
+		border-bottom: 1px solid $gray-light;
+		border-radius: 0;
+		font-family: $font-primary;
+		font-size: 18px;
+		font-weight: 600;
+	}
+
+	&.skills &-tag {
+		background-color: $gray-light;
+	}
+
+	&.is-active {
+		box-shadow: none !important;
+		border: none !important;
+		border-bottom: 1px solid $gray-light !important;
+	}
+
+	&-placeholder {
+		padding-left: 17px !important;
+	}
+
+	&-tag-wrapper {
+		font-size: 14px;
+	}
+
+	&-no-results {
+		font-size: 14px;
+		text-align: center;
+	}
+
+	&-no-options,
+	&-no-results {
+		color: $gray-light !important;
+		padding: 25px 0 !important;
+	}
+
+	&-option {
+		padding: 10px !important;
+
+		&:hover {
+			background: rgba($light-blue, 0.2) !important;
+		}
+	}
+}

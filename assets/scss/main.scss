@@ -1,0 +1,57 @@
+//Base
+@import './base/fonts';
+@import './base/variables';
+@import './base/mixins';
+@import './placeholders';
+@import './base/utils';
+
+//Components
+@import './components/applyForm';
+@import './components/badge';
+@import './components/card';
+@import './components/cards';
+@import './components/cards/post';
+@import './components/cta';
+@import './components/dropdownCountry';
+@import './components/dropdownOptions';
+@import './components/marquee';
+@import './components/multiselect';
+@import './components/newsletter';
+@import './components/pagination';
+@import './components/remoteTeams';
+@import './components/segment';
+@import './components/tabs';
+
+//Sections
+@import './components/contact';
+@import './components/dropdownLinks';
+@import './components/footer';
+@import './components/header';
+@import './components/hero';
+@import './components/homeBlog';
+@import './components/letsBuild';
+@import './components/ourModel';
+@import './components/recruitment';
+@import './components/reviews';
+@import './components/services';
+
+//Pages
+@import './pages/staffAugmentation';
+@import './pages/dedicatedTeams';
+@import './pages/careers';
+@import './pages/careersDetails';
+
+// Sections About
+@import 'components/testimonials';
+@import 'components/about';
+@import 'components/leadership';
+
+// Sections blogs
+@import 'components/blog';
+
+// Sections Posts Open
+@import 'components/posts';
+
+// Sections Careers Benefits
+@import 'components/benefits';
+@import 'components/teams';

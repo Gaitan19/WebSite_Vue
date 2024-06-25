@@ -1,0 +1,59 @@
+{
+    "title": "MEET OUR LEADERSHIP TEAM",
+    "subtitle": "The Faces Behind SMBS Success",
+    "members": [
+      {
+        "image": "/images/marielena.png",
+        "position": "CO-founder, CEO",
+        "icon":"fa6-brands:linkedin",
+        "name": "Marielena Robelo"
+      },
+      {
+        "image": "/images/tony.png",
+        "position": "CO-Founder, CTO",
+        "icon":"fa6-brands:linkedin",
+        "name": "Tony Lopez"
+      },
+      {
+        "image": "/images/bluey.png",
+        "position": "Chief Happiness Officer",
+        "name": "Bluey"
+      },
+      {
+        "image": "/images/cinthia.png",
+        "position": "People Experience Mgr",
+        "icon":"fa6-brands:linkedin",
+        "name": "Cinthia Robelo"
+      },
+      {
+        "image": "/images/gershell.png",
+        "position": "Engineering Manager",
+        "icon":"fa6-brands:linkedin",
+        "name": "Gershell Lopez"
+      },
+      {
+        "image": "/images/lucky.png",
+        "position": "Chief Cuddles Officer",
+        "name": "Lucky"
+      },
+      {
+        "image": "/images/damaris.png",
+        "position": "People Development",
+        "icon":"fa6-brands:linkedin",
+        "name": "Damaris Blandón"
+      },
+      {
+        "image": "/images/robert.png",
+        "position": "Tech Lead",
+        "icon":"fa6-brands:linkedin",
+        "name": "Robert Samuel"
+      },
+      {
+        "image": "/images/elias.png",
+        "position": "Communication Strategist",
+        "icon":"fa6-brands:linkedin",
+        "name": "Elías Úbeda"
+      }
+    ]
+  }
+  

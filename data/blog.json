@@ -1,0 +1,213 @@
+{
+	"HERO": {
+		"title": "Stay Ahead of the Curve with Our Blog",
+		"description": "Discover insights tailored for both strategic minds and technical experts on the SMBS Blog. From industry trends to coding tips, stay informed and inspired to shape the future of software development. Join us as we navigate the dynamic landscape together.",
+		"btnLabel": "Get in touch"
+	},
+	"NEWSLETTER": {
+		"title": "STAY UP TO DATE",
+		"subtitle": "Business, technology, and innovation insights"
+	},
+	"TOPPOSTS": [
+		{
+			"link": "blog",
+			"title": "What is staff augmentation, and how does it differ from outsourcing?",
+			"image": {
+				"src": "/images/blog_post.png",
+				"alt": "some alt description"
+			},
+			"description": "Lorem ipsum dLorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et nisi nec orci gravida accumsan a sed odio.",
+			"date": "",
+			"author": "Author’s Name",
+			"category": [
+				"Product"
+			]
+		},
+		{
+			"link": "blog",
+			"title": "What is staff augmentation, and how does it differ from outsourcing?",
+			"image": {
+				"src": "/images/blog_post.png",
+				"alt": "some alt description"
+			},
+			"description": "Lorem ipsum dLorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et nisi nec orci gravida accumsan a sed odio.",
+			"date": "",
+			"author": "Author’s Name",
+			"category": [
+				"Product"
+			]
+		},
+		{
+			"link": "blog",
+			"title": "What is staff augmentation, and how does it differ from outsourcing?",
+			"image": {
+				"src": "/images/blog_post.png",
+				"alt": "some alt description"
+			},
+			"description": "Lorem ipsum dLorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et nisi nec orci gravida accumsan a sed odio.",
+			"date": "",
+			"author": "Author’s Name",
+			"category": [
+				"Product"
+			]
+		},
+		{
+			"link": "blog",
+			"title": "What is staff augmentation, and how does it differ from outsourcing?",
+			"image": {
+				"src": "/images/blog_post.png",
+				"alt": "some alt description"
+			},
+			"description": "Lorem ipsum dLorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et nisi nec orci gravida accumsan a sed odio.",
+			"date": "",
+			"author": "Author’s Name",
+			"category": [
+				"Product"
+			]
+		},
+		{
+			"link": "blog",
+			"title": "What is staff augmentation, and how does it differ from outsourcing?",
+			"image": {
+				"src": "/images/blog_post.png",
+				"alt": "some alt description"
+			},
+			"description": "Lorem ipsum dLorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et nisi nec orci gravida accumsan a sed odio.",
+			"date": "",
+			"author": "Author’s Name",
+			"category": [
+				"Product"
+			]
+		}
+	],
+	"postsRight": [
+		{
+			"link": "blog",
+			"title": "What is staff augmentation, and how does it differ from outsourcing?",
+			"image": {
+				"src": "/images/blog_post.png",
+				"alt": "some alt description"
+			},
+			"description": "Lorem ipsum dLorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et nisi nec orci gravida accumsan a sed odio.",
+			"date": "",
+			"author": "Author’s Name",
+			"category": [
+				"Product"
+			]
+		},
+		{
+			"link": "blog",
+			"title": "What is staff augmentation, and how does it differ from outsourcing?",
+			"image": {
+				"src": "/images/blog_post.png",
+				"alt": "some alt description"
+			},
+			"description": "Lorem ipsum dLorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et nisi nec orci gravida accumsan a sed odio.",
+			"date": "",
+			"author": "Author’s Name",
+			"category": [
+				"Product"
+			]
+		},
+		{
+			"link": "blog",
+			"title": "What is staff augmentation, and how does it differ from outsourcing?",
+			"image": {
+				"src": "/images/blog_post.png",
+				"alt": "some alt description"
+			},
+			"description": "Lorem ipsum dLorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et nisi nec orci gravida accumsan a sed odio.",
+			"date": "",
+			"author": "Author’s Name",
+			"category": [
+				"Product"
+			]
+		}
+	],
+	"BOTPOSTS": {
+		"inlinePosts": [
+			{
+				"link": "blog",
+				"title": "What is staff augmentation, and how does it differ from outsourcing?",
+				"image": {
+					"src": "/images/blog_post.png",
+					"alt": "some alt description"
+				},
+				"description": "Lorem ipsum dLorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et nisi nec orci gravida accumsan a sed odio.",
+				"date": "",
+				"author": "Marielena Robelo",
+				"category": [
+					"Product"
+				]
+			},
+			{
+				"link": "blog",
+				"title": "What is staff augmentation, and how does it differ from outsourcing?",
+				"image": {
+					"src": "/images/blog_post.png",
+					"alt": "some alt description"
+				},
+				"description": "Lorem ipsum dLorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et nisi nec orci gravida accumsan a sed odio.",
+				"date": "",
+				"author": "Marielena Robelo",
+				"category": [
+					"Product"
+				]
+			},
+			{
+				"link": "blog",
+				"title": "What is staff augmentation, and how does it differ from outsourcing?",
+				"image": {
+					"src": "/images/blog_post.png",
+					"alt": "some alt description"
+				},
+				"description": "Lorem ipsum dLorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et nisi nec orci gravida accumsan a sed odio.",
+				"date": "",
+				"author": "Marielena Robelo",
+				"category": [
+					"Product"
+				]
+			},
+			{
+				"link": "blog",
+				"title": "What is staff augmentation, and how does it differ from outsourcing?",
+				"image": {
+					"src": "/images/blog_post.png",
+					"alt": "some alt description"
+				},
+				"description": "Lorem ipsum dLorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et nisi nec orci gravida accumsan a sed odio.",
+				"date": "",
+				"author": "Marielena Robelo",
+				"category": [
+					"Product"
+				]
+			}
+		],
+		"blockPost": {
+			"firstPost": {
+				"image": {
+					"src": "/images/blog_post.png",
+					"alt": "some alt description"
+				},
+				"link": "blog",
+				"title": "What is staff augmentation, and how does it differ from outsourcing?",
+				"description": "Lorem ipsum dLorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et nisi nec orci gravida accumsan a sed odio.",
+				"date": "",
+				"author": "Marielena Robelo",
+				"category": [
+					"Product"
+				]
+			},
+			"secondPost": {
+				"link": "blog",
+				"title": "What is staff augmentation, and how does it differ from outsourcing?",
+				"description": "Lorem ipsum dLorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et nisi nec orci gravida accumsan a sed odio.",
+				"date": "",
+				"author": "Marielena Robelo",
+				"category": [
+					"Product"
+				]
+			}
+		}
+	}
+}

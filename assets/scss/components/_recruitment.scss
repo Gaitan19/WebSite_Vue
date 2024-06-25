@@ -1,0 +1,49 @@
+.recruitment {
+  &__list {
+    column-gap: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    row-gap: 48px;
+  }
+
+  @include media-breakpoint-down(lg) {
+    &__list {
+      justify-content: center;
+      row-gap: 38px;
+
+      &--item {
+        width: 50%;
+      }
+    }
+  }
+
+  @include media-breakpoint-down(md) {
+    &__list {
+      &--item {
+        flex: 0 0 clamp(55%, 1vw, 60%);
+        width: auto;
+
+        &:nth-child(5) {
+          flex: 0 0 clamp(55%, 1vw, 60%);
+        }
+      }
+    }
+  }
+
+  @include media-breakpoint-down(sm) {
+    &__list {
+      gap: 40px;
+      &--item {
+        flex: unset;
+
+        &:nth-child(5) {
+          flex: unset;
+        }
+      }
+    }
+  }
+}

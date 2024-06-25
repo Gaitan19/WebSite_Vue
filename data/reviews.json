@@ -1,0 +1,29 @@
+{
+  "title": "REVIEWS",
+  "subtitle": "Insights and Ideas",
+  "text": "We take care of everything else, ensuring that your team has the necessary support and resources to successfully complete your projects.",
+  "responsiveReviews": {
+    "0": {
+      "slidesPerView": 1.2,
+      "spaceBetween": 20
+    },
+    "576": {
+      "slidesPerView": 1.4,
+      "spaceBetween": 20
+    },
+    "768": {
+      "slidesPerView": 1.5,
+      "spaceBetween": 40
+    },
+    "991": {
+      "slidesPerView": 2.73,
+      "spaceBetween": 20
+    },
+    "1800": {
+      "slidesPerView": 3.5
+    },
+    "1940": {
+      "slidesPerView": 4.4
+    }
+  }
+}

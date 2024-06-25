@@ -1,0 +1,99 @@
+.card-offer {
+	background-color: $gray-lightest;
+	box-shadow: 0 4px 4px 0 rgba($black, 0.25);
+	max-width: 526px;
+	padding: 15px;
+	width: 100%;
+
+	&__wrapper {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__info {
+		margin-bottom: 20px;
+	}
+
+	&__title {
+		color: $blue;
+		font-family: $font-primary;
+		margin-bottom: 20px;
+		font-size: 14px;
+		font-weight: 700;
+		letter-spacing: 1.4px;
+		line-height: 21px;
+	}
+
+	&__description {
+		color: $blue;
+		font-weight: 600;
+		line-height: 21px;
+		letter-spacing: 1.4px;
+	}
+
+	&__details {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__location {
+		color: $blue;
+		display: flex;
+		align-items: center;
+		column-gap: 12px;
+		font-weight: 600;
+		font-weight: 600;
+		letter-spacing: 1.4px;
+		line-height: 21px;
+		margin-bottom: 0;
+		text-transform: uppercase;
+	}
+
+	&__experience {
+		color: $blue;
+		display: flex;
+		align-items: center;
+		column-gap: 12px;
+		font-size: 14px;
+		font-weight: 600;
+		line-height: 21px;
+		letter-spacing: 1.4px;
+		text-align: left;
+	}
+
+	@include media-breakpoint-down(xl) {
+		&__description {
+			font-size: 14px;
+		}
+	}
+
+	@include media-breakpoint-down(lg) {
+		&__title {
+			font-size: 16px;
+		}
+
+		&__description {
+			font-size: 16px;
+		}
+
+		&__location {
+			font-size: 14px;
+		}
+	}
+
+	@include media-breakpoint-down(sm) {
+		&__details {
+			flex-wrap: nowrap;
+			column-gap: 10px;
+		}
+
+		&__location,
+		&__experience {
+			column-gap: 10px;
+		}
+
+		&__experience {
+			text-wrap: nowrap;
+		}
+	}
+}

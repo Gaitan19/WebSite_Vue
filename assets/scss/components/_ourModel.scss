@@ -1,0 +1,26 @@
+.ourModel {
+  &__img {
+    height: 636px;
+    max-width: 636px;
+    width: 100%;
+
+    @include media-breakpoint-down(xxl) {
+      height: 530px;
+      max-width: 530px;
+    }
+
+    @include media-breakpoint-down(xl) {
+      height: 500px;
+      max-width: 500px;
+    }
+
+    @include media-breakpoint-down(lg) {
+      height: auto;
+      max-width: 400px;
+    }
+
+    @include media-breakpoint-down(sm) {
+      max-width: 370px;
+    }
+  }
+}

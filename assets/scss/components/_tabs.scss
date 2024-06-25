@@ -1,0 +1,43 @@
+.tabs {
+	margin-bottom: 30px;
+
+	&__wrapper {
+		display: flex;
+		gap: 50px;
+		justify-content: center;
+	}
+
+	&__button {
+		all: unset;
+		color: $blue;
+		font-size: 14px;
+		font-weight: 600;
+		letter-spacing: 1.4px;
+		line-height: 21px;
+		text-align: center;
+		text-transform: uppercase;
+
+		&:hover {
+			cursor: pointer;
+			color: rgba($blue, 0.85);
+		}
+
+		&.active {
+			color: $orange;
+		}
+	}
+
+	@include media-breakpoint-down(lg) {
+		&__wrapper {
+			gap: 20px;
+		}
+
+		&__button {
+			letter-spacing: 0;
+		}
+
+		&.openingList {
+			display: none;
+		}
+	}
+}

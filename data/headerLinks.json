@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "text": "About us",
+    "path": "/aboutus"
+  },
+  {
+    "id": 2,
+    "text": "Services",
+    "path": "services",
+    "children": [
+      {
+        "id": 3,
+        "text": "Staff Augmentation",
+        "path": "/services/staff-augmentation"
+      },
+      {
+        "id": 4,
+        "text": "Dedicated Teams",
+        "path": "/services/dedicated-teams"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "text": "Blog",
+    "path": "/blog"
+  },
+  {
+    "id": 6,
+    "text": "Careers",
+    "path": "/careers"
+  }
+]

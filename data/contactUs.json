@@ -1,0 +1,30 @@
+{
+  "title": "CONTACT US",
+  "subtitle": "Let’s Connect!",
+  "text": "Transform your business with our software development services. Our expert team delivers tailored solutions that exceed your expectations.",
+  "secondary_text": "Fill out the contact form below to get started.",
+  "fields": [
+    {
+      "placeholder": "Name",
+      "type": "text"
+    },
+    {
+      "placeholder": "Email",
+      "type": "email"
+    },
+    {
+      "placeholder": "Company",
+      "type": "text"
+    },
+    {
+      "placeholder": "Phone Number",
+      "type": "tel",
+      "maxlength": "8"
+    },
+    {
+      "placeholder": "Message",
+      "type": "text",
+      "isTextarea": true
+    }
+  ]
+}

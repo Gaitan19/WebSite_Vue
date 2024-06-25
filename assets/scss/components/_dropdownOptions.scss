@@ -1,0 +1,81 @@
+.dropdownOptions {
+  &__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+
+  &__active {
+    color: $orange;
+    display: flex;
+    font-weight: 700;
+    justify-content: space-between;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    width: 100%;
+
+    @include media-breakpoint-down(sm) {
+      font-size: 20px;
+      line-height: 30px;
+    }
+  }
+
+  &__check {
+    display: none;
+  }
+
+  &__submenu {
+    background-color: $white;
+    border-bottom: 2px solid rgba($gray-soft, 0.4);
+    height: 0;
+    height: 0;
+    list-style: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0 6px;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+  }
+
+  &__button {
+    all: unset;
+    color: $blue;
+    font-weight: 600;
+    padding: 5px;
+    text-transform: uppercase;
+    width: 100%;
+  }
+
+  &__check:checked ~ &__submenu {
+    animation: expand 1s ease;
+    box-shadow: 0 2px 4px rgba($black, 0.2);
+    height: 225px;
+  }
+
+  &__check:not(:checked) ~ &__submenu {
+    transition: height 0.5s ease;
+  }
+
+  &.openingList {
+    display: none;
+    margin: 0 auto 30px;
+    max-width: 650px;
+    width: 100%;
+
+    @include media-breakpoint-down(lg) {
+      display: block;
+    }
+  }
+}
+
+@keyframes expand {
+  from {
+    height: 0;
+  }
+
+  to {
+    height: 225px;
+  }
+}

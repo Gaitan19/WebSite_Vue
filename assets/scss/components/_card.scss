@@ -1,0 +1,359 @@
+.card {
+  &--blog {
+    border: none;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    max-width: 636px;
+    padding: 0;
+
+    &__content {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    &__date {
+      @extend %description;
+      color: $text-primary;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 27px;
+    }
+
+    &__title {
+      @extend %description;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 24px;
+      margin: 0;
+    }
+
+    &__text {
+      @extend %description;
+      font-size: 16px;
+      letter-spacing: -0.1px;
+      line-height: 24px;
+      margin: 0;
+    }
+
+    &__link {
+      @extend %description;
+      color: $text-secondary;
+      font-size: 18px;
+      line-height: 24px;
+      text-decoration: underline;
+
+      &:hover {
+        color: $text-secondary;
+        cursor: pointer;
+      }
+    }
+
+    &__image {
+      height: 203px;
+      width: 306px;
+    }
+  }
+
+  &--review {
+    background: $reviews-card-bg;
+    border: none;
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 526px;
+    padding: 34px 50px;
+
+    &__contact {
+      align-items: flex-end;
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__description {
+      @extend %description;
+      color: $reviews-card-text;
+      font-weight: 400;
+      margin-bottom: 0;
+    }
+
+    &__author {
+      @extend %description;
+      color: $reviews-card-text;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 24px;
+    }
+
+    &__charge {
+      @extend %description;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+    }
+
+    &__qualifications {
+      align-items: center;
+      display: flex;
+      gap: 12px;
+    }
+
+    &__stars {
+      height: auto;
+      width: 119px;
+    }
+  }
+
+  &--staff {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    font-family: $font-primary;
+    margin: 0 auto 24px;
+    max-width: 306px;
+    padding: 0;
+
+    &__content {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__image {
+      height: auto;
+      margin-bottom: 40px;
+      max-width: 306px;
+      width: 100%;
+    }
+
+    &__name {
+      color: $text-dark;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 30px;
+      margin-bottom: 14px;
+    }
+
+    &__charge {
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &__position {
+      color: $text-dark;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 24px;
+    }
+
+    &__icon {
+      color: $text-blue;
+      font-size: 32px;
+    }
+  }
+
+  @include media-breakpoint-down(xxl) {
+    &--blog {
+      flex-direction: row;
+      gap: 10px;
+      max-width: 545px;
+
+      &__image {
+        height: auto;
+        max-width: 275px;
+        object-fit: cover;
+        width: 100%;
+      }
+
+      &__title {
+        font-size: 18px;
+      }
+    }
+
+    &--review {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+  }
+
+  @include media-breakpoint-down(xl) {
+    &--blog {
+      &__content {
+        justify-content: space-between;
+      }
+
+      &__image {
+        height: 218px;
+        max-width: 240px;
+      }
+
+      &__date {
+        font-size: 14px;
+      }
+
+      &__title {
+        font-size: 14.5px;
+        line-height: 1.4;
+      }
+
+      &__text {
+        font-size: 15px;
+      }
+
+      &__link {
+        font-size: 16px;
+      }
+    }
+
+    &--review {
+      gap: 0;
+      padding: 50px 49px;
+
+      &__name,
+      &__position {
+        text-align: center;
+      }
+
+      &__image {
+        margin-bottom: 65px;
+      }
+
+      &__description {
+        font-size: 18px;
+        min-height: 132px;
+        margin-bottom: 20px;
+      }
+
+      &__contact {
+        align-items: flex-start;
+        height: 82px;
+        margin-bottom: 40px;
+      }
+
+      &__author {
+        font-size: 24px;
+        width: 100%;
+      }
+
+      &__charge {
+        font-size: 18px;
+        text-align: center;
+      }
+    }
+  }
+
+  @include media-breakpoint-down(lg) {
+    &--blog {
+      flex-direction: column;
+      max-width: unset;
+
+      &__image {
+        height: auto;
+        max-width: 100%;
+        width: 100%;
+      }
+
+      &__title,
+      &__text,
+      &__link {
+        font-size: 16px;
+      }
+    }
+
+    &--review {
+      align-items: center;
+      padding: 20px 25px;
+      max-width: 100%;
+
+      &__name,
+      &__position {
+        text-align: center;
+      }
+
+      &__image {
+        margin-bottom: 30px;
+      }
+
+      &__description {
+        text-align: center;
+        line-height: 33px;
+        min-height: 60px;
+        margin-bottom: 25px;
+      }
+
+      &__author {
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+      }
+
+      &__charge {
+        font-size: 18px;
+        text-align: center;
+      }
+    }
+  }
+
+  @include media-breakpoint-down(md) {
+    &--blog {
+      row-gap: 25px;
+
+      &__date {
+        font-size: 18px;
+      }
+
+      &__title {
+        font-size: 20px;
+        line-height: 24px;
+      }
+
+      &__text {
+        font-size: 16px;
+      }
+
+      &__link {
+        font-size: 18px;
+      }
+    }
+
+    &--review {
+      align-items: flex-start;
+      padding: 20px 25px;
+      gap: 30px;
+
+      &__description {
+        margin-bottom: 0;
+        line-height: 30px;
+      }
+
+      &__image {
+        margin-bottom: 0;
+      }
+
+      &__contact {
+        height: auto;
+        margin-bottom: 0;
+      }
+
+      &__author {
+        font-size: 18px;
+        text-align: right;
+      }
+
+      &__charge {
+        font-size: 16px;
+        text-align: right;
+      }
+    }
+
+    &--staff {
+      margin-bottom: 50px;
+
+      &__image {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

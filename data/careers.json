@@ -1,0 +1,370 @@
+{
+  "HERO": {
+    "title": "Invest in Your Future: Join Our Team",
+    "description": "We believe in the power of a happy workplace. If you're passionate about software development, innovation, and collaborative success, you're in the right place. Explore our career opportunities and embark on a journey where your skills, creativity, and dedication are celebrated.",
+    "btnLabel": "Apply Now",
+    "image": "/images/careers_hero.png"
+  },
+  "WORK_WITH_US": {
+    "title": "Why Work With Us?",
+    "subtitle": "Join us for a joyful and innovative work environment. Let's Shape the Future Together",
+    "cards": [
+      {
+        "id": 1,
+        "title": "We make work gratifying in more than one way",
+        "description": "We really go beyond the basics and keep finding ways to make work <br /> —Latam or on-site— <br /> as fun as possible.",
+        "image": {
+          "src": "/images/work_with_us_icon-1.png",
+          "alt": "icon"
+        },
+        "htmlText": true
+      },
+      {
+        "id": 2,
+        "title": "We care for our people",
+        "description": "We guarantee that everyone’s as happy as possible from the moment someone joins the team to the day they leave the company.",
+        "image": {
+          "src": "/images/work_with_us_icon-2.png",
+          "alt": "icon"
+        }
+      },
+      {
+        "id": 3,
+        "title": "We believe in autonomy and empowerment",
+        "description": "Our Devs are exposed to project discussions and have direct interaction with peers on the client side. This type of exposure is key for our team members’ growth.",
+        "image": {
+          "src": "/images/work_with_us_icon-3.png",
+          "alt": "icon"
+        }
+      },
+      {
+        "id": 4,
+        "title": "We partner with great clients",
+        "description": "We can be selective about which clients we work with. We want to make sure they’re great brands with interesting challenges. We want to know there’s a cultural fit that leads to productive and respectful collaboration.",
+        "image": {
+          "src": "/images/work_with_us_icon-4.png",
+          "alt": "icon"
+        }
+      }
+    ]
+  },
+  "OPENINGLIST": {
+    "title": "Opening List",
+    "subtitle": "Interested in joining the SMBS team?",
+    "positions": [
+      "all",
+      "web development",
+      "mobile development",
+      "QA",
+      "PM/PO",
+      "UX/UI",
+      "devops",
+      "operations"
+    ],
+    "offers": [
+      {
+        "id": 1,
+        "link": "careers/senior-frontend-developer",
+        "title": "Senior Frontend Developer",
+        "experience": "3+ years of experience",
+        "englishLevel": "Intermediate English",
+        "location": "Latam",
+        "type": "Full-time",
+        "description": "SMBS has an immediate opening for a React Developer to join our engineering team! Are you a front-end developer, involved with human centric interface development and developing quality code? Do you desire to make a difference and have an impact through the work that you create? If so, come join SMBS! You’ll work to develop applications in an Agile development environment.",
+        "competencies": [
+          "Bachelor’s Degree in Computer Science or a related field.",
+          "3-5 years of professional experience using React.",
+          "Experience with state management libraries such as Redux.",
+          "Experience with Next.js and Typescript.",
+          "Experience with Jest/Enzyme or equivalent tools.",
+          "Expertise using Hooks, including custom hooks",
+          "Experience with Webpack.",
+          "Professional experience with Test Driven Development and performing code reviews.",
+          "Experience using version control systems like GIT.",
+          "Experience working in an agile environment (Scrum preferred) as part of a cross-functional ",
+          "team.",
+          "Strong communication skills.",
+          "Fluent in English."
+        ],
+        "responsabilities": [
+          "Create effectively tested, re-usable, and efficient JavaScript and TypeScript code.",
+          "Develop user interfaces.",
+          "Support continuous improvement by staying",
+          "up-to-date on front-end technology.",
+          "Work collaboratively with a team in an Agile environment."
+        ]
+      },
+      {
+        "id": 2,
+        "link": "careers/ios-developer",
+        "title": "iOS Developer",
+        "experience": "3+ years of experience",
+        "englishLevel": "Intermediate English",
+        "location": "Latam",
+        "type": "Full-time",
+        "description": "SMBS has an immediate opening for a React Developer to join our engineering team! Are you a front-end developer, involved with human centric interface development and developing quality code? Do you desire to make a difference and have an impact through the work that you create? If so, come join SMBS! You’ll work to develop applications in an Agile development environment.",
+        "competencies": [
+          "Bachelor’s Degree in Computer Science or a related field.",
+          "3-5 years of professional experience using React.",
+          "Experience with state management libraries such as Redux.",
+          "Experience with Next.js and Typescript.",
+          "Experience with Jest/Enzyme or equivalent tools.",
+          "Expertise using Hooks, including custom hooks",
+          "Experience with Webpack.",
+          "Professional experience with Test Driven Development and performing code reviews.",
+          "Experience using version control systems like GIT.",
+          "Experience working in an agile environment (Scrum preferred) as part of a cross-functional ",
+          "team.",
+          "Strong communication skills.",
+          "Fluent in English."
+        ],
+        "responsabilities": [
+          "Create effectively tested, re-usable, and efficient JavaScript and TypeScript code.",
+          "Develop user interfaces.",
+          "Support continuous improvement by staying",
+          "up-to-date on front-end technology.",
+          "Work collaboratively with a team in an Agile environment."
+        ]
+      },
+      {
+        "id": 3,
+        "link": "careers/ios-developer",
+        "title": "iOS Developer",
+        "experience": "3+ years of experience",
+        "englishLevel": "Intermediate English",
+        "location": "Latam",
+        "type": "Full-time",
+        "description": "SMBS has an immediate opening for a React Developer to join our engineering team! Are you a front-end developer, involved with human centric interface development and developing quality code? Do you desire to make a difference and have an impact through the work that you create? If so, come join SMBS! You’ll work to develop applications in an Agile development environment.",
+        "competencies": [
+          "Bachelor’s Degree in Computer Science or a related field.",
+          "3-5 years of professional experience using React.",
+          "Experience with state management libraries such as Redux.",
+          "Experience with Next.js and Typescript.",
+          "Experience with Jest/Enzyme or equivalent tools.",
+          "Expertise using Hooks, including custom hooks",
+          "Experience with Webpack.",
+          "Professional experience with Test Driven Development and performing code reviews.",
+          "Experience using version control systems like GIT.",
+          "Experience working in an agile environment (Scrum preferred) as part of a cross-functional ",
+          "team.",
+          "Strong communication skills.",
+          "Fluent in English."
+        ],
+        "responsabilities": [
+          "Create effectively tested, re-usable, and efficient JavaScript and TypeScript code.",
+          "Develop user interfaces.",
+          "Support continuous improvement by staying",
+          "up-to-date on front-end technology.",
+          "Work collaboratively with a team in an Agile environment."
+        ]
+      },
+      {
+        "id": 4,
+        "link": "careers/react-developer",
+        "title": "React Developer",
+        "experience": "3+ years of experience",
+        "englishLevel": "Intermediate English",
+        "location": "Latam",
+        "type": "Full-time",
+        "description": "SMBS has an immediate opening for a React Developer to join our engineering team! Are you a front-end developer, involved with human centric interface development and developing quality code? Do you desire to make a difference and have an impact through the work that you create? If so, come join SMBS! You’ll work to develop applications in an Agile development environment.",
+        "competencies": [
+          "Bachelor’s Degree in Computer Science or a related field.",
+          "3-5 years of professional experience using React.",
+          "Experience with state management libraries such as Redux.",
+          "Experience with Next.js and Typescript.",
+          "Experience with Jest/Enzyme or equivalent tools.",
+          "Expertise using Hooks, including custom hooks",
+          "Experience with Webpack.",
+          "Professional experience with Test Driven Development and performing code reviews.",
+          "Experience using version control systems like GIT.",
+          "Experience working in an agile environment (Scrum preferred) as part of a cross-functional ",
+          "team.",
+          "Strong communication skills.",
+          "Fluent in English."
+        ],
+        "responsabilities": [
+          "Create effectively tested, re-usable, and efficient JavaScript and TypeScript code.",
+          "Develop user interfaces.",
+          "Support continuous improvement by staying",
+          "up-to-date on front-end technology.",
+          "Work collaboratively with a team in an Agile environment."
+        ]
+      },
+      {
+        "id": 5,
+        "link": "careers/ios-developer",
+        "title": "iOS Developer",
+        "experience": "3+ years of experience",
+        "englishLevel": "Intermediate English",
+        "location": "Latam",
+        "type": "Full-time",
+        "description": "SMBS has an immediate opening for a React Developer to join our engineering team! Are you a front-end developer, involved with human centric interface development and developing quality code? Do you desire to make a difference and have an impact through the work that you create? If so, come join SMBS! You’ll work to develop applications in an Agile development environment.",
+        "competencies": [
+          "Bachelor’s Degree in Computer Science or a related field.",
+          "3-5 years of professional experience using React.",
+          "Experience with state management libraries such as Redux.",
+          "Experience with Next.js and Typescript.",
+          "Experience with Jest/Enzyme or equivalent tools.",
+          "Expertise using Hooks, including custom hooks",
+          "Experience with Webpack.",
+          "Professional experience with Test Driven Development and performing code reviews.",
+          "Experience using version control systems like GIT.",
+          "Experience working in an agile environment (Scrum preferred) as part of a cross-functional ",
+          "team.",
+          "Strong communication skills.",
+          "Fluent in English."
+        ],
+        "responsabilities": [
+          "Create effectively tested, re-usable, and efficient JavaScript and TypeScript code.",
+          "Develop user interfaces.",
+          "Support continuous improvement by staying",
+          "up-to-date on front-end technology.",
+          "Work collaboratively with a team in an Agile environment."
+        ]
+      }
+    ]
+  },
+  "RECRUITMENT": {
+    "title": "RECRUITMENT PROCESS",
+    "subtitle": "Your Path to Success at SMBS",
+    "cards": [
+      {
+        "number": 1,
+        "title": "Initial Screening",
+        "description": "A member of our team will reach out to gauge if you are a technical and cultural match for the role."
+      },
+      {
+        "number": 2,
+        "title": "Technical Interviews",
+        "description": "We want to get to know you better by learning about your achievements and technical skills in more details."
+      },
+      {
+        "number": 3,
+        "title": "Assessment",
+        "description": "This is meant to give you an idea of the type of work that will be asked of you."
+      },
+      {
+        "number": 4,
+        "title": "Final Interview",
+        "description": "Meet with a member of our leadership team."
+      },
+      {
+        "number": 5,
+        "title": "Contract Signing and Onboarding"
+      }
+    ]
+  },
+  "BENEFITS": {
+    "title": "PERKS & BENEFITS",
+    "subtitle": "WORK AND LIFE SHOULD FIT TOGETHER",
+    "cards": [
+      {
+        "image": "/images/entertainment.png",
+        "description": "Entertainment spaces"
+      },
+      {
+        "image": "/images/stocked_kitchen.png",
+        "description": "Fully Stocked Kitchen"
+      },
+      {
+        "image": "/images/remote_work.png",
+        "description": "Work from home"
+      },
+      {
+        "image": "/images/time_off.png",
+        "description": "Time off"
+      },
+      {
+        "image": "/images/birthdays.png",
+        "description": "Birthdays"
+      },
+      {
+        "image": "/images/career_advancement.png",
+        "description": "Career Advancement"
+      },
+      {
+        "image": "/images/comfortable_work.png",
+        "description": "Comfortable work environment"
+      },
+      {
+        "image": "/images/vision_benefits.png",
+        "description": "Vision Benefits"
+      }
+    ]
+  },
+  "REVIEWS": {
+    "title": "TEAM REVIEWS",
+    "subtitle": "Here's what our team members have to say about life at SMBS",
+    "text": "We're more than just colleagues — we're innovators, creators, and trailblazers. Each voice is heard, each idea valued, and each contribution celebrated.",
+    "responsiveReviews": {
+      "0": {
+        "slidesPerView": 1.193,
+        "spaceBetween": 25
+      },
+      "576": {
+        "slidesPerView": 1.35,
+        "spaceBetween": 15
+      },
+      "768": {
+        "slidesPerView": 1.5,
+        "spaceBetween": 40
+      },
+      "991": {
+        "slidesPerView": 2.62,
+        "spaceBetween": 25
+      },
+      "1800": {
+        "slidesPerView": 3.5
+      }
+    },
+    "cards": [
+      {
+        "name": "Luis F.",
+        "position": "Project Leader",
+        "description": "“At SMBS, I've found unparalleled professional growth, a fantastic work environment, and access to the latest in software development technology. A truly rewarding experience!”",
+        "image": "/images/glassdoor.png",
+        "link": "https://www.glassdoor.com/Overview/Working-at-Smart-Business-Solutions-NJ-EI_IE7698126.11,38.htm"
+      },
+      {
+        "name": "Luis F.",
+        "position": "Project Leader",
+        "description": "“At SMBS, I've found unparalleled professional growth, a fantastic work environment, and access to the latest in software development technology. A truly rewarding experience!”",
+        "image": "/images/glassdoor.png",
+        "link": "https://www.glassdoor.com/Overview/Working-at-Smart-Business-Solutions-NJ-EI_IE7698126.11,38.htm"
+      },
+      {
+        "name": "Luis F.",
+        "position": "Project Leader",
+        "description": "“At SMBS, I've found unparalleled professional growth, a fantastic work environment, and access to the latest in software development technology. A truly rewarding experience!”",
+        "image": "/images/glassdoor.png",
+        "link": "https://www.glassdoor.com/Overview/Working-at-Smart-Business-Solutions-NJ-EI_IE7698126.11,38.htm"
+      },
+      {
+        "name": "Luis F.",
+        "position": "Project Leader",
+        "description": "“At SMBS, I've found unparalleled professional growth, a fantastic work environment, and access to the latest in software development technology. A truly rewarding experience!”",
+        "image": "/images/glassdoor.png",
+        "link": "https://www.glassdoor.com/Overview/Working-at-Smart-Business-Solutions-NJ-EI_IE7698126.11,38.htm"
+      },
+      {
+        "name": "Luis F.",
+        "position": "Project Leader",
+        "description": "“At SMBS, I've found unparalleled professional growth, a fantastic work environment, and access to the latest in software development technology. A truly rewarding experience!”",
+        "image": "/images/glassdoor.png",
+        "link": "https://www.glassdoor.com/Overview/Working-at-Smart-Business-Solutions-NJ-EI_IE7698126.11,38.htm"
+      }
+    ]
+  },
+  "GALLERY": [
+    "/images/gallery-1.png",
+    "/images/gallery-2.png",
+    "/images/gallery-3.png",
+    "/images/gallery-4.png",
+    "/images/gallery-5.png",
+    "/images/gallery-6.png",
+    "/images/gallery-7.png",
+    "/images/gallery-8.png",
+    "/images/gallery-9.png",
+    "/images/gallery-10.png"
+  ]
+}

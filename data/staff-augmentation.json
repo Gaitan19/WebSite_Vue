@@ -1,0 +1,99 @@
+{
+	"HERO": {
+		"title": "Scale your in-house team with the best LATAM Engineers.",
+		"subtitle": "Get the talent you need, when you need it, and watch your projects thrive.",
+		"btnLabel": "Extend Your Team Now"
+	},
+	"TECHNOLOGIES": {
+		"description": "Our staff augmentation service seamlessly integrates world-class developers into your in-house team. With this collaborative approach, our skilled professionals work side by side with your existing team, enhancing productivity and driving project success.",
+		"marqueeTop": ["Docker", "PHP", "Python", "TypeScript", "AWS", "C#", "Node"],
+		"marqueeBot": ["Kotlin", "Laravel", "WordPress", "React", "Angular", "Vue.js", "C++"]
+	},
+	"REMOTETEAMS": {
+		"title": "build outstanding remote teams, on demand!",
+		"description": "Experience Seamless Integration, Expertise, and Growth",
+		"cards": [
+			{
+				"title": "Seamless Collaboration",
+				"description": "Working with the best LATAM professionals minimizes communication barriers and facilitates real-time coordination with your existing team."
+			},
+			{
+				"title": "Flexible Scalability",
+				"description": "Easily adjust your team’s size to match changing project needs, all while maintaining flexibility with adaptable contracts and monthly billing."
+			},
+			{
+				"title": "Agile Talent Acquisition",
+				"description": "Quickly onboard experienced engineers. Bypass the time-consuming hiring process and have skilled engineers contributing to your project in a record time frame."
+			},
+			{
+				"title": "Reduced Administrative Overhead",
+				"description": "Minimize administrative tasks related to hiring, onboarding, and HR management. This allows you to focus more on your core business functions while we handle the logistics."
+			}
+		]
+	},
+	"REMOTESTEPS": {
+		"title": "LET’S BUILD YOUR REMOTE TEAM IN 3 EASY STEPS",
+		"description": "Our success rate for converting trials into hires stands at an impressive 98%",
+		"cards": [
+			{
+				"stepNumber": "01",
+				"title": "DISCOVERY SESSION",
+				"description": "We’ll delve into your team’s structure, define success criteria, establish timelines and budgets, and pinpoint the necessary skill sets. We align our services with your needs for a successful collaboration.",
+				"arrow": "/images/step-arrow.png"
+			},
+			{
+				"stepNumber": "02",
+				"title": "FAST-TRACK TEAM BUILDING",
+				"description": "We move swiftly to agree on the engagement model that suits your needs. Within days, we select and onboard your dedicated developers, ensuring a seamless transition into your team and project environment.",
+				"arrow": "/images/step-arrow.png"
+			},
+			{
+				"stepNumber": "03",
+				"title": "ENSURING THE PERFECT FIT",
+				"description": "We kick off the engagement with a trial period where you can test the waters with your developer. Payment is made only upon satisfaction, allowing you to verify the perfect fit before formal engagement."
+			}
+		]
+	},
+	"BLOGS": {
+		"title": "INDUSTRY INSIGHTS",
+		"description": "Learn more about Staff Augmentation",
+		"posts": [
+			{
+				"link": "blog",
+				"title": "What is staff augmentation, and how does it differ from outsourcing?",
+				"image": {
+					"src": "/images/blog_post.png",
+					"alt": "some alt description"
+				},
+				"description": "Lorem ipsum dLorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et nisi nec orci gravida accumsan a sed odio.",
+				"date": "",
+				"author": "Marielena Robelo",
+				"category": ["Product", "Research", "Frameworks"]
+			},
+			{
+				"link": "blog",
+				"title": "What is staff augmentation, and how does it differ from outsourcing?",
+				"image": {
+					"src": "/images/blog_post.png",
+					"alt": "some alt description"
+				},
+				"description": "Lorem ipsum dLorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et nisi nec orci gravida accumsan a sed odio.",
+				"date": "",
+				"author": "Marielena Robelo",
+				"category": ["Product", "Research", "Frameworks"]
+			},
+			{
+				"link": "blog",
+				"title": "What is staff augmentation, and how does it differ from outsourcing?",
+				"image": {
+					"src": "/images/blog_post.png",
+					"alt": "some alt description"
+				},
+				"description": "Lorem ipsum dLorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et nisi nec orci gravida accumsan a sed odio.",
+				"date": "",
+				"author": "Marielena Robelo",
+				"category": ["Product", "Research", "Frameworks"]
+			}
+		]
+	}
+}

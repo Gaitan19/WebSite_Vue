@@ -1,0 +1,159 @@
+.post {
+  max-width: 414px;
+  width: 100%;
+
+  @include media-breakpoint-down(xxl) {
+    max-width: 350px;
+  }
+
+  @include media-breakpoint-down(xl) {
+    max-width: 295px;
+  }
+
+  @include media-breakpoint-down(lg) {
+    max-width: 100%;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+
+    &.row {
+      gap: 24px;
+
+      .post__head {
+        &--image {
+          margin-bottom: 0;
+        }
+
+        .post__link {
+          height: 100%;
+        }
+      }
+    }
+  }
+
+  &__head {
+    &--image {
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
+      margin-bottom: 25px;
+      width: 100%;
+    }
+
+    &--redirect {
+      align-items: flex-start;
+      display: flex;
+      gap: 10px;
+    }
+
+    &--author {
+      color: $blue;
+      font-family: $font-primary;
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
+
+    &--title {
+      color: $black;
+      font-family: $font-primary;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 24px;
+      margin: 0;
+    }
+
+    &--icon {
+      color: $orange;
+      font-size: 25px;
+      transform: rotate(45deg);
+    }
+
+    @include media-breakpoint-down(xxl) {
+      &--author {
+        font-size: 16px;
+      }
+
+      &--title {
+        font-size: 16px;
+        margin-bottom: 12px;
+      }
+    }
+
+    @include media-breakpoint-down(xl) {
+      &--author {
+        margin-bottom: 12px;
+      }
+    }
+  }
+
+  &__link {
+    color: black;
+    display: block;
+    text-decoration: none;
+  }
+
+  &__body {
+    &--description {
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 3;
+      color: $blue;
+      display: -webkit-box;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 24px;
+      margin-bottom: 12px;
+      overflow: hidden;
+
+      @include media-breakpoint-down(xxl) {
+        font-size: 13.4px;
+      }
+    }
+  }
+
+  &__footer {
+    &--categories {
+      display: flex;
+      gap: 14px;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    &--item {
+      @include media-breakpoint-down(xxl) {
+        font-size: 12px;
+      }
+
+      @include media-breakpoint-down(md) {
+        font-size: 14px;
+      }
+    }
+  }
+
+  &.block {
+    .post__wrapper {
+      flex-direction: row;
+      height: 100%;
+
+      @include media-breakpoint-down(lg) {
+        flex-direction: column;
+
+        &.row {
+          gap: 25px;
+        }
+      }
+    }
+
+    .post {
+
+      &__body,
+      &__head {
+        width: 100%;
+      }
+    }
+  }
+}

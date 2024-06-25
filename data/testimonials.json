@@ -1,0 +1,34 @@
+{
+    "customClass":"testimonials",
+    "title": "TESTIMONIALS",
+    "subtitle": "Our Success Stories in Client Words",
+    "text": "We take care of everything else, ensuring that your team has the necessary support and resources to successfully complete your projects.",
+    "responsiveReviews": {
+
+        "370":{
+          "slidesPerView": 1.193,
+          "spaceBetween": 25
+        },
+
+        "576": {
+          "slidesPerView": 1.3,
+          "spaceBetween":15
+        },
+        "768": {
+          "slidesPerView":1.5,
+          "spaceBetween":40
+        },
+        "991": {
+          "slidesPerView": 2.75,
+          "spaceBetween": 20
+        },
+        "1200": {
+          "slidesPerView":2.85,
+          "spaceBetween": 25
+        },
+        "1800": {
+          "slidesPerView": 3.5
+        }
+      }
+    
+  }

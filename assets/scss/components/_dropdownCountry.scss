@@ -1,0 +1,36 @@
+.dropdown-country {
+  position: relative;
+  width: 100%;
+
+  &__select {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid $gray-light;
+    color: $gray-light;
+    font-family: $font-primary;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 6px 16px 6px 13px;
+    position: relative;
+    width: 100%;
+
+    .select-first {
+      display: none;
+    }
+
+    &:has(option[value='']:not(:checked)) {
+      color: $black;
+    }
+
+    &:focus-visible {
+      outline: none;
+    }
+  }
+
+  &__item {
+    color: black;
+    &:hover {
+      background: rgba($light-blue, 0.2);
+    }
+  }
+}

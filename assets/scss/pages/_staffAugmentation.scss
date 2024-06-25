@@ -1,0 +1,250 @@
+.staffAugmentation {
+  &__map {
+    position: relative;
+
+    img {
+      height: 636px;
+      width: 648px;
+    }
+
+    &--point {
+      animation: pulse 2s infinite;
+      background-color: $cyan;
+      border-radius: 50%;
+      height: 8px;
+      position: absolute;
+      width: 8px;
+
+      &:nth-child(2) {
+        left: 171px;
+        top: 254px;
+      }
+
+      &:nth-child(3) {
+        left: 260px;
+        top: 327px;
+      }
+
+      &:nth-child(4) {
+        bottom: 266px;
+        left: 304px;
+      }
+
+      &:nth-child(5) {
+        bottom: 200px;
+        left: 304px;
+      }
+
+      &:nth-child(6) {
+        bottom: 193px;
+        left: 404px;
+      }
+
+      &:nth-child(7) {
+        bottom: 165px;
+        left: 338px;
+      }
+
+      &:nth-child(8) {
+        bottom: 78px;
+        left: 379px;
+      }
+    }
+
+    @include media-breakpoint-down(xl) {
+      position: absolute;
+      right: 0;
+      top: 0;
+      img {
+        height: 610px;
+        width: 556.95px;
+      }
+
+      &--point {
+        height: 7px;
+        width: 7px;
+
+        &:nth-child(2) {
+          left: 26%;
+          top: 38%;
+        }
+
+        &:nth-child(3) {
+          left: 40%;
+          top: 50%;
+        }
+
+        &:nth-child(4) {
+          left: 45.45%;
+          top: 57%;
+        }
+
+        &:nth-child(5) {
+          left: 45%;
+          top: 67.6%;
+        }
+
+        &:nth-child(6) {
+          left: 67.5%;
+          top: 68.6%;
+        }
+
+        &:nth-child(7) {
+          left: 54.5%;
+          top: 72.8%;
+        }
+
+        &:nth-child(8) {
+          left: 59.5%;
+          top: 86.6%;
+        }
+      }
+    }
+
+    @include media-breakpoint-down(lg) {
+      position: absolute;
+      right: auto;
+      top: 0;
+
+      img {
+        height: auto;
+        max-width: 679px;
+        width: 100%;
+      }
+
+      &--point {
+        height: 15px;
+        width: 15px;
+
+        &:nth-child(2) {
+          left: 24%;
+          top: 32%;
+        }
+
+        &:nth-child(3) {
+          left: 36%;
+          top: 49%;
+        }
+
+        &:nth-child(4) {
+          bottom: 60%;
+          left: 46%;
+        }
+
+        &:nth-child(5) {
+          display: none;
+        }
+
+        &:nth-child(6) {
+          display: none;
+        }
+
+        &:nth-child(7) {
+          left: 53.5%;
+          top: 75.8%;
+        }
+
+        &:nth-child(8) {
+          bottom: 88%;
+          left: 58%;
+        }
+      }
+    }
+
+    @include media-breakpoint-down(md) {
+      position: absolute;
+
+      &--point {
+        &:nth-child(2) {
+          left: 21%;
+          top: 30%;
+        }
+
+        &:nth-child(3) {
+          top: 47%;
+        }
+
+        &:nth-child(4) {
+          top: 55%;
+        }
+
+        &:nth-child(7) {
+          left: 56.5%;
+          top: 68.8%;
+        }
+
+        &:nth-child(8) {
+          top: 84%;
+        }
+      }
+    }
+
+    @include media-breakpoint-down(sm) {
+      top: 30%;
+
+      img {
+        height: 375px;
+        width: 360px;
+      }
+
+      &--point {
+        height: 8px;
+        width: 8px;
+
+        &:nth-child(2) {
+          left: 28.8%;
+          top: 39%;
+        }
+
+        &:nth-child(3) {
+          left: 38.5%;
+          top: 49%;
+        }
+
+        &:nth-child(4) {
+          left: 47%;
+          top: 56%;
+        }
+
+        &:nth-child(5) {
+          display: block;
+          left: 45%;
+          top: 64.6%;
+        }
+
+        &:nth-child(6) {
+          display: block;
+          left: 62%;
+          top: 66%;
+        }
+
+        &:nth-child(7) {
+          left: 51.5%;
+          top: 71.8%;
+        }
+
+        &:nth-child(8) {
+          bottom: 88%;
+          left: 56%;
+        }
+      }
+    }
+  }
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(51, 217, 178, 0.7);
+    transform: scale(0.95);
+  }
+
+  70% {
+    box-shadow: 0 0 0 10px rgba(51, 217, 178, 0);
+    transform: scale(1);
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 rgba(51, 217, 178, 0);
+    transform: scale(0.95);
+  }
+}

@@ -1,0 +1,64 @@
+.devCard {
+	background: $bg-conic-gradient;
+	box-shadow: $shadow-card;
+	font-family: $font-primary;
+	margin: 0 auto;
+	padding: 30px 24px;
+	text-align: center;
+	max-width: 368px;
+	width: 100%;
+
+	&__image {
+		height: 120px;
+		margin-bottom: 24px;
+		width: 120px;
+	}
+
+	&__name {
+		color: $text-muted;
+		font-size: 20px;
+		font-weight: 400;
+		line-height: 30px;
+		margin: 0;
+	}
+
+	&__position {
+		color: $text-light;
+		display: block;
+		font-size: 16px;
+		font-weight: 700;
+		line-height: 24px;
+		margin-bottom: 24px;
+	}
+
+	&__description {
+		border-bottom: 2px solid $bg-primary-emphasis;
+		color: $text-light;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 24px;
+		margin: 0 auto 20px;
+		max-width: 320px;
+		padding-bottom: 20px;
+		width: 100%;
+	}
+
+	&__cta {
+		display: inline-block;
+		margin-bottom: 24px;
+	}
+
+	&--skills {
+		color: $text-light;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 24px;
+		text-align: start;
+
+		&-uppercase {
+			display: block;
+			margin-bottom: 24px;
+			text-transform: uppercase;
+		}
+	}
+}

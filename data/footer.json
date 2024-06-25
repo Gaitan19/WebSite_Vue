@@ -1,0 +1,49 @@
+{
+  "menu": [
+    {
+      "text": "HOME",
+      "link": "/"
+    },
+    {
+      "text": "SOFTWARE DEVELOPMEMT",
+      "link": "/"
+    },
+    {
+      "text": "HOW WE WORK",
+      "link": "/"
+    },
+    {
+      "text": "ABOUT US",
+      "link": "/"
+    }
+  ],
+  "icons": [
+    "fa6-brands:square-facebook",
+    "fa6-brands:linkedin",
+    "fa6-brands:square-twitter"
+  ],
+  "contacts": [
+    {
+      "id": "m3n4o5",
+      "icon": "fa6-solid:location-dot",
+      "link": "/",
+      "text": "Stay up to date with the latest news, announcements and articles."
+    },
+    {
+      "id": "p6q7r8",
+      "icon": "fa6-solid:phone",
+      "link": "tel:+1 888 888888",
+      "text": "+1 888 888888"
+    },
+    {
+      "id": "s9t0u1",
+      "icon": "fa6-solid:envelope",
+      "link": "mailto:email@smbssolutions.com",
+      "text": "email@smbssolutions.com"
+    }
+  ],
+  "subscribeTitle": "Sign up to our newsletter",
+  "subscribeText": "Stay up to date with the latest news, announcements and articles.",
+  "copyright": "All rights reserved",
+  "privacyPolicy": "Privacy policy"
+}

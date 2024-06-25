@@ -1,0 +1,48 @@
+[
+  {
+    "svgClass": "letushandle__svg",
+    "radius": 306,
+    "startOffset": "39%",
+    "centerY": 237,
+    "centerX": 272,
+    "textContent": "your all inclusive rate covers",
+    "textPathId": "titled-circle",
+    "textClass": "letushandle-circle__title"
+  },
+  {
+    "svgClass": "letushandle__svg",
+    "radius": 280,
+    "textContent": "",
+    "textPathId": "dashed-circle",
+    "circleClass": "letushandle-circle letushandle-circle--border-dashed"
+  },
+  {
+    "svgClass": "letushandle__svg",
+    "radius": 233,
+    "centerY": 250,
+    "centerX": 250,
+    "textContent": "RETENTION PROGRAMS &nbsp; |  &nbsp; HOLIDAY MANAGEMENT &nbsp; | &nbsp; TIME TRACKING &nbsp; | &nbsp; MODERN HARDWARE &nbsp; | &nbsp; PRODUCTIVITY TOOLS &nbsp; | &nbsp; COMMUNICATION TOOLS &nbsp; |&nbsp;  CAREER MANAGEMENT &nbsp; | &nbsp; ",
+    "textPathId": "big-circle",
+    "circleClass": "letushandle-circle",
+    "textClass": "letushandle-circle__text"
+  },
+  {
+    "svgClass": "letushandle__svg",
+    "radius": 204,
+    "centerY": 215,
+    "centerX": 215,
+    "textContent": "TECHNICAL UPSKILLING &nbsp; | &nbsp; CULTURAL SYNCRONIZATION &nbsp;  | &nbsp;  TIME TRACKING &nbsp; | &nbsp;  IT SUPPORT &nbsp;  &nbsp;  | &nbsp; RECRUITMENT &nbsp;  | &nbsp; ON BOARDING &nbsp; |&nbsp;  &nbsp; QUALITY WORKSPACE &nbsp;| &nbsp;",
+    "textPathId": "middle-circle",
+    "circleClass": "letushandle-circle",
+    "textClass": "letushandle-circle__text"
+  },
+  {
+    "svgClass": "letushandle__svg",
+    "radius": 173,
+    "centerY": 185,
+    "centerX": 185,
+    "textPathId": "small-circle",
+    "circleClass": "letushandle-circle",
+    "textClass": "letushandle-circle__text"
+  }
+]

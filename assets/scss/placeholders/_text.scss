@@ -1,0 +1,40 @@
+%sectionTitle {
+  color: $text-secondary;
+  font-family: $font-primary;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 52.5px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+
+  @include media-breakpoint-down(lg) {
+    font-size: 40px;
+    line-height: 42.5px;
+  }
+
+  @include media-breakpoint-down(sm) {
+    line-height: 50px;
+    margin-bottom: 40px;
+  }
+}
+
+%subtitle {
+  color: $text-primary;
+  font-family: $font-primary;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  margin: 0;
+
+  @include media-breakpoint-down(lg) {
+    font-size: 28px;
+  }
+}
+
+%description {
+  color: $text-primary-emphasis;
+  font-family: $font-primary;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}

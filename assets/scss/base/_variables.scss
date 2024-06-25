@@ -1,0 +1,91 @@
+//fonts
+$font-primary: 'Open Sans', sans-serif;
+
+//colors
+$black: #00071e;
+$blue-dark: #050d26;
+$blue-midnight: #192139;
+$blue-sky: rgba(0, 175, 169, 0.3);
+$blue-slate-dark: #19213900;
+$blue: #1c243e;
+$cyan: #00afa9;
+$gray-dark: #212529;
+$gray-light: #afafaf;
+$gray-lightest: #f5f5f5;
+$gray-soft: #b0b0b0;
+$gray-thin: #c9c9c9;
+$gray: #3d455c;
+$light-blue: #0a66c2;
+$blue-royal: #4472C4;
+$orange: #f89b27;
+$white: #ffffff;
+$red: #f37b7b;
+$navy-dark: rgba(0, 7, 30, 0.6);
+$gray-dark-slate: #1c243ebe;
+
+//text-colors
+$text-blue: $light-blue;
+$text-dark: $black;
+$text-light: $white;
+$text-muted: $gray-light;
+$text-primary-emphasis: $blue;
+$text-primary: $gray-dark;
+$text-secondary: $orange;
+$text-subtitle: $blue;
+$text-terciary-emphasis: $blue-sky;
+
+//background-colors
+$background-dark: $blue-dark;
+$background-light: $gray-light;
+$bg-body: $gray-lightest;
+$bg-primary-emphasis: $gray;
+$bg-primary: $blue;
+$bg-secondary: $orange;
+$background-linear-gradient: linear-gradient(76deg,
+    $black 60.21%,
+    $blue 74.25%);
+$bg-conic-gradient: conic-gradient(from 35deg at 50% 50%,
+    $blue-midnight 0deg,
+    $blue-slate-dark 360deg);
+
+//border
+$border-light: $white;
+$circle-border-color: #cbcbcb;
+
+//box-shadows
+$shadow-card: 4px 3px 10px 0px rgba(0, 0, 0, 0.25);
+
+//breakpoints
+$breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 991px,
+  xl: 1200px,
+  xxl: 1536px,
+);
+
+// reviews
+$reviews-card-bg: $gray-lightest;
+$reviews-card-text: $black;
+
+// contact
+$contact-border-field: $gray-light;
+
+// about us
+$about-text: $blue;
+
+// blog
+
+$blog-background: linear-gradient(72.93deg,
+    $black 19.46%,
+    $navy-dark 72.95%,
+    $blue 100%);
+
+// careersDetails
+$careersDetails-icons-text: $gray-dark-slate;
+
+// footer
+$footer-text-light: $gray-light;
+$footer-button: $gray;
+$footer-border: $gray;

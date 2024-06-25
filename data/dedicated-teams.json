@@ -1,0 +1,128 @@
+{
+	"HERO": {
+		"title": "Empower Your Projects with SMBS: Seamless Integration, Exceptional Delivery.",
+		"description": "Achieve outstanding outcomes with precision and agility using our dedicated software teams. Fully integrated and aligned with your objectives, we ensure your projects are executed flawlessly from conception to completion.",
+		"btnLabel": "Extend Your Team Now",
+		"image": "/images/dedicated-hero.png"
+	},
+	"TECHNOLOGIES": {
+		"description": "At SMBS, we understand that the backbone of any successful software project is a robust and agile team. Our Dedicated Software Development Teams are the perfect example of synergy and expertise, tailored to bring your software visions to fruition. Composed of seasoned developers, DevOps engineers, QA specialists, UX designers, and project managers, we assemble a constellation of talent that aligns precisely with your project’s needs.",
+		"marqueeTop": [
+			"Docker",
+			"PHP",
+			"Python",
+			"TypeScript",
+			"AWS",
+			"C#",
+			"Node"
+		],
+		"marqueeBot": [
+			"Kotlin",
+			"Laravel",
+			"WordPress",
+			"React",
+			"Angular",
+			"Vue.js",
+			"C++"
+		]
+	},
+	"REMOTETEAMS": {
+		"title": "build outstanding remote teams, on demand!",
+		"description": "Experience Seamless Integration, Expertise, and Growth",
+		"cards": [
+			{
+				"title": "Seamless Collaboration",
+				"description": "Working with the best LATAM professionals minimizes communication barriers and facilitates real-time coordination with your existing team."
+			},
+			{
+				"title": "Flexible Scalability",
+				"description": "Easily adjust your team’s size to match changing project needs, all while maintaining flexibility with adaptable contracts and monthly billing."
+			},
+			{
+				"title": "Agile Talent Acquisition",
+				"description": "Quickly onboard experienced engineers. Bypass the time-consuming hiring process and have skilled engineers contributing to your project in a record time frame."
+			},
+			{
+				"title": "Reduced Administrative Overhead",
+				"description": "Minimize administrative tasks related to hiring, onboarding, and HR management. This allows you to focus more on your core business functions while we handle the logistics."
+			}
+		]
+	},
+	"REMOTESTEPS": {
+		"title": "LET’S BUILD YOUR REMOTE TEAM IN 3 EASY STEPS",
+		"description": "Our success rate for converting trials into hires stands at an impressive 98%",
+		"cards": [
+			{
+				"stepNumber": "01",
+				"title": "DISCOVERY SESSION",
+				"description": "We’ll delve into your team’s structure, define success criteria, establish timelines and budgets, and pinpoint the necessary skill sets. We align our services with your needs for a successful collaboration.",
+				"arrow": "/images/step-arrow.png"
+			},
+			{
+				"stepNumber": "02",
+				"title": "YOUR IDEAL TEAM, ON DEMAND",
+				"description": "Say goodbye to the hassle of team assembly. At SMBS, we expedite the process of crafting the perfect team for your project. We swiftly curate a team that aligns precisely with your requirements, sparing you the complexities of recruitment.",
+				"arrow": "/images/step-arrow.png"
+			},
+			{
+				"stepNumber": "03",
+				"title": "SEAMLESS ONBOARDING, INSTANT PRODUCTIVITY",
+				"description": "We kick off the engagement with a trial period where you can test the waters with your developer. Payment is made only upon satisfaction, allowing you to verify the perfect fit before formal engagement."
+			}
+		]
+	},
+	"BLOGS": {
+		"title": "INDUSTRY INSIGHTS",
+		"description": "Learn more about Dedicated Teams",
+		"posts": [
+			{
+				"link": "blog",
+				"title": "What is staff augmentation, and how does it differ from outsourcing?",
+				"image": {
+					"src": "/images/blog_post.png",
+					"alt": "some alt description"
+				},
+				"description": "Lorem ipsum dLorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et nisi nec orci gravida accumsan a sed odio.",
+				"date": "",
+				"author": "Marielena Robelo",
+				"category": [
+					"Product",
+					"Research",
+					"Frameworks"
+				]
+			},
+			{
+				"link": "blog",
+				"title": "What is staff augmentation, and how does it differ from outsourcing?",
+				"image": {
+					"src": "/images/blog_post.png",
+					"alt": "some alt description"
+				},
+				"description": "Lorem ipsum dLorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et nisi nec orci gravida accumsan a sed odio.",
+				"date": "",
+				"author": "Marielena Robelo",
+				"category": [
+					"Product",
+					"Research",
+					"Frameworks"
+				]
+			},
+			{
+				"link": "blog",
+				"title": "What is staff augmentation, and how does it differ from outsourcing?",
+				"image": {
+					"src": "/images/blog_post.png",
+					"alt": "some alt description"
+				},
+				"description": "Lorem ipsum dLorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et nisi nec orci gravida accumsan a sed odio.",
+				"date": "",
+				"author": "Marielena Robelo",
+				"category": [
+					"Product",
+					"Research",
+					"Frameworks"
+				]
+			}
+		]
+	}
+}

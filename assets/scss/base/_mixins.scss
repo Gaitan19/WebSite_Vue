@@ -1,0 +1,6 @@
+@mixin media-breakpoint-down($key) {
+  $value: map-get($breakpoints, $key);
+  @media (max-width: $value) {
+    @content;
+  }
+}

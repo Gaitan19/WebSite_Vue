@@ -1,0 +1,83 @@
+.rating-card {
+  background-color: $bg-body;
+  max-width: 426px;
+  padding: 40px 50px;
+
+  @include media-breakpoint-down(xl) {
+    max-width: 380px;
+  }
+
+  @include media-breakpoint-down(lg) {
+    max-width: 100%;
+  }
+
+  @include media-breakpoint-down(sm) {
+    padding: 20px 30px;
+  }
+
+  &__logo {
+    margin-bottom: 40px;
+    width: 120px;
+
+    @include media-breakpoint-down(sm) {
+      margin-bottom: 25px;
+      width: 90px;
+    }
+  }
+
+  &__text {
+    @extend %description;
+    color: $text-dark;
+    margin-bottom: 40px;
+
+    @include media-breakpoint-down(md) {
+      margin-bottom: 30px;
+    }
+  }
+
+  &__author {
+    color: $text-dark;
+    font-family: $font-primary;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 0;
+    text-align: right;
+  }
+
+  &__position {
+    color: $text-dark;
+    font-family: $font-primary;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0 0 40px;
+    text-align: right;
+  }
+
+  &__ratings {
+    align-items: center;
+    display: flex;
+    gap: 12px;
+  }
+
+  &__reviewer {
+    height: 50px;
+    width: 98px;
+
+    @include media-breakpoint-down(sm) {
+      height: 40px;
+      width: 88px;
+    }
+  }
+
+  &__stars {
+    height: 35px;
+    width: 119px;
+
+    @include media-breakpoint-down(sm) {
+      height: 25px;
+      width: 109px;
+    }
+  }
+}

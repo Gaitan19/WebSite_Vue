@@ -1,0 +1,93 @@
+.card-number {
+  max-width: 416px;
+  width: 100%;
+
+  &__wrapper {
+    align-items: center;
+    column-gap: 15px;
+    display: flex;
+  }
+
+  &__num {
+    color: rgba($cyan, 0.32);
+    font-size: 248px;
+    font-weight: 400;
+    line-height: 248px;
+  }
+
+  &__info {
+    max-width: 259px;
+    width: 100%;
+  }
+
+  &__title {
+    color: $blue;
+    font-family: $font-primary;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0 0 16px;
+  }
+
+  &__description {
+    color: $blue;
+    font-family: $font-primary;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  &__wrapper:not(:has(.card-number__description)) {
+    @include media-breakpoint-down(md) {
+      align-items: flex-start;
+
+      .card-number__info {
+        margin-top: 30px;
+
+        @include media-breakpoint-down(sm) {
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+
+  &__info:not(:has(.card-number__description)) {
+    .card-number__title {
+      margin: 70px 0 130px;
+
+      @include media-breakpoint-down(lg) {
+        margin: 0 0 70px;
+      }
+    }
+  }
+
+  @include media-breakpoint-down(lg) {
+    &__num {
+      line-height: 1;
+    }
+  }
+
+  @include media-breakpoint-down(md) {
+    &__num {
+      font-size: 200px;
+    }
+  }
+
+  @include media-breakpoint-down(sm) {
+    &__title {
+      font-size: 20px;
+      line-height: 30px;
+      margin-bottom: 20px;
+    }
+
+    &__description {
+      font-size: 20px;
+      line-height: 30px;
+    }
+
+    &__num {
+      font-size: 130px;
+      line-height: 156px;
+    }
+  }
+}

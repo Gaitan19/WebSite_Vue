@@ -1,0 +1,154 @@
+.testimonials {
+  margin-bottom: 100px;
+
+  .text {
+    margin-bottom: 50px;
+  }
+
+  @include media-breakpoint-down(xxl) {
+    .reviews__title {
+      margin-bottom: 45px;
+    }
+
+    .card--review {
+      padding: 34px 50px;
+      &__description {
+        font-size: 20px;
+      }
+    }
+  }
+
+  @include media-breakpoint-down(xl) {
+    .title {
+      font-size: 30px;
+      line-height: 1.2;
+      margin-bottom: 31px;
+    }
+
+    .reviews__subtitle {
+      font-size: 30px;
+      line-height: 55px;
+      margin-bottom: 37px;
+    }
+
+    .text {
+      margin-bottom: 37px;
+    }
+
+    .card--review {
+      gap: 0;
+      padding: 50px 49px;
+
+      &__description {
+        font-size: 18px;
+        line-height: 33px;
+        margin-bottom: 20px;
+        margin-top: 65px;
+        min-height: 132px;
+      }
+
+      &__contact {
+        align-items: flex-start;
+        height: 82px;
+        margin-bottom: 40px;
+      }
+
+      &__author {
+        font-size: 24px;
+      }
+
+      &__qualifications img:nth-child(1) {
+        width: 93.65px;
+      }
+    }
+  }
+
+  @include media-breakpoint-down(lg) {
+    .card--review {
+      max-width: 100%;
+      padding: 20px 20px 25px;
+
+      &__description {
+        line-height: 30px;
+        margin-bottom: 25px;
+        margin-top: 30px;
+        min-height: 60px;
+      }
+
+      &__contact {
+        margin-bottom: 40px;
+      }
+
+      &__author {
+        font-size: 20px;
+      }
+
+      &__charge {
+        font-size: 18px;
+        line-height: 27px;
+      }
+    }
+  }
+
+  @include media-breakpoint-down(sm) {
+    margin-bottom: 90px;
+
+    .reviews__title {
+      font-size: 40px;
+      line-height: 50px;
+      margin-bottom: 50px;
+    }
+
+    .reviews__subtitle {
+      line-height: 36px;
+      margin-bottom: 40px;
+    }
+
+    .reviews__text {
+      font-size: 18px;
+      line-height: 27px;
+      margin-bottom: 50px;
+      text-align: left;
+    }
+
+    .card--review {
+      align-items: flex-start;
+      gap: 30px;
+      padding: 22.23px 25px;
+
+      &__description {
+        font-size: 20px;
+        line-height: 30px;
+        margin: 0;
+      }
+
+      &__contact {
+        align-items: flex-end;
+        height: auto;
+        margin: 0;
+        width: 100%;
+      }
+
+      &__author {
+        font-size: 18px;
+        line-height: 24px;
+        text-align: right;
+      }
+
+      &__charge {
+        font-size: 16px;
+        line-height: 24px;
+        text-align: right;
+      }
+
+      &__qualifications img:first-child {
+        height: 50px;
+        width: 97px;
+      }
+
+      &__stars {
+        width: 119px;
+      }
+    }
+  }
+}

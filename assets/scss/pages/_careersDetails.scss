@@ -1,0 +1,270 @@
+.career {
+  &__about {
+    margin-bottom: 50px;
+  }
+
+  &__description {
+    font-size: 18px;
+    margin-bottom: 30px;
+    max-width: 1300px;
+  }
+
+  &__competencies {
+    font-size: 18px;
+    margin-bottom: 30px;
+
+    &--list {
+      list-style: none;
+      margin: 0 0 30px;
+      padding: 0;
+    }
+
+    &--item {
+      font-size: 18px;
+      margin-bottom: 15px;
+      margin-left: 30px;
+      position: relative;
+
+      &::before {
+        color: $blue;
+        content: '•';
+        display: inline-block;
+        font-size: 18px;
+        left: -19px;
+        position: absolute;
+      }
+
+      &::marker {
+        font-variant-numeric: normal;
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &__responsabilities {
+    font-size: 18px;
+    margin-bottom: 30px;
+
+    &--list {
+      list-style: none;
+      margin: 0 0 30px;
+      padding: 0;
+    }
+
+    &--item {
+      font-size: 18px;
+      margin-bottom: 15px;
+      margin-left: 30px;
+      position: relative;
+
+      &::before {
+        color: $blue;
+        content: '•';
+        display: inline-block;
+        font-size: 18px;
+        left: -19px;
+        position: absolute;
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &__benefits {
+    color: $blue;
+    font-family: $font-primary;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0 0 30px;
+
+    &--list {
+      display: grid;
+      grid-auto-flow: column;
+      grid-template-rows: repeat(4, 1fr);
+      list-style: none;
+      margin: 0;
+      max-width: 745px;
+      padding: 0;
+    }
+
+    &--item {
+      font-size: 18px;
+      margin-bottom: 15px;
+      margin-left: 30px;
+      position: relative;
+
+      &::before {
+        color: $blue;
+        content: '•';
+        display: inline-block;
+        font-size: 18px;
+        left: -19px;
+        position: absolute;
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &__apply {
+    &--content {
+      max-width: 526px;
+      width: 100%;
+    }
+
+    &--description {
+      color: $blue;
+      font-size: 20px;
+      line-height: 30px;
+    }
+
+    &--form {
+      max-width: 746px;
+      width: 100%;
+    }
+
+    @include media-breakpoint-down(xl) {
+      &--description {
+        font-size: 19.66px;
+      }
+    }
+  }
+
+  &__looking {
+    &--location {
+      text-transform: uppercase;
+    }
+
+    &--english {
+      text-transform: capitalize;
+    }
+  }
+
+  @include media-breakpoint-down(xl) {
+    &__about {
+      margin-bottom: 100px;
+      .segment__title {
+        font-size: 40px;
+        line-height: 1.2;
+      }
+    }
+
+    &__competencies--item {
+      font-size: 16px;
+    }
+
+    &__responsabilities--item {
+      font-size: 16px;
+    }
+
+    &__responsabilities--list {
+      margin-bottom: 50px;
+    }
+
+    &__benefits {
+      margin-bottom: 50px;
+    }
+
+    &__benefits--item {
+      font-size: 16px;
+    }
+
+    &__apply {
+      &--description {
+        max-width: 450px;
+      }
+    }
+  }
+
+  @include media-breakpoint-down(lg) {
+    &__competencies {
+      &--item {
+        line-height: 1.4;
+      }
+    }
+
+    &__responsabilities {
+      &--item {
+        line-height: 1.4;
+      }
+    }
+
+    &__apply {
+      &--content {
+        max-width: unset;
+      }
+
+      &--description {
+        max-width: 100%;
+      }
+    }
+  }
+
+  @include media-breakpoint-down(md) {
+    &__about {
+      margin-bottom: 50px;
+    }
+
+    &__description,
+    &__competencies,
+    &__responsabilities {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    &__competencies,
+    &__responsabilities,
+    &__benefits {
+      &--item {
+        font-size: 16px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  @include media-breakpoint-down(sm) {
+    &__description,
+    &__competencies,
+    &__competencies--item,
+    &__responsabilities,
+    &__responsabilities--item,
+    &__benefits--item,
+    &__apply--description {
+      font-size: 20px;
+      line-height: 30px;
+      margin-bottom: 36px;
+      text-align: left;
+    }
+
+    &__competencies--item,
+    &__responsabilities--item,
+    &__benefits--item {
+      margin-bottom: 20px;
+    }
+
+    &__about {
+      .segment__title {
+        font-size: 35px;
+      }
+    }
+
+    &__benefits {
+      font-size: 25px;
+      line-height: 32px;
+      margin-bottom: 25px;
+      text-align: left;
+
+      &--list {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+}
